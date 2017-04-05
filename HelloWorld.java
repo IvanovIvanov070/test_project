@@ -1,11 +1,13 @@
-import java.util.Scanner;
+import java.util.Scanner
 
 public class HelloWorld
 {
 	public static void main (String[] args)
 	{
-		NameAsker greetings = new NameAsker();
-		String username = new String();
-		greetings.greet (username);
+		Scanner scan = new Scanner (System.in);
+		System.out.print ("Please enter your name: ");
+		String username = scan.nextLine();
+		System.out.println ("Hello " + username + "!");
+		scan.close();
 	}
 }
