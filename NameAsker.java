@@ -9,7 +9,7 @@ public class NameAsker
     name = scan.nextLine();
 	System.out.print("Now enter your last name: ");
     lastname = scan.nextLine();
-    System.out.println("Hello " + name + " " + lastname + "!");
+    System.out.println("Hello, " + name + " " + lastname + "!");
 	scan.close();
 	}
 }
